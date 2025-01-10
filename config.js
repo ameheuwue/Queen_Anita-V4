@@ -29,7 +29,7 @@ global.roles = {
 };
 
 global.sudoUsers = process.env.SUDO_USERS.split(',').map(user => `${user}@s.whatsapp.net`); 
-
+2349139401428
 global.public = process.env.PUBLIC === 'true';
 
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
@@ -42,7 +42,7 @@ global.autoreact = process.env.AUTO_REACT === 'true';
 global.WELCOME = process.env.WELCOME === 'true';
 
 global.prefix = process.env.PREFIX || '.';
-
+{"noiseKey":{"private":{"type":"Buffer","data":"0NwN20Fd6U4e50RBFhqy8IXg3ujZnIGugqubj6KAjF0="},"public":{"type":"Buffer","data":"fSlA74pOL7emHkD3IL20XAC43YuS4INpOXWu+ouNomw="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"6GETzB9W3qoW1Bg+5yqHSMEPB+5loc0eTH4uAI9coFo="},"public":{"type":"Buffer","data":"OKuDNFle65bXFjmN7A7WXfmiySKdISzBa+wRi/hZ3EM="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"eJO3/hFmjseqsVKMOYfSGK3S+yWpIjjyqSk42dyXrGk="},"public":{"type":"Buffer","data":"NV4kzKLvvHgLitYQp6K6w77AzFof6BtymyB8rVoh1DQ="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"EIji8nN6WyF83OXTmeaEooa/ZX2fe7bDt3WWousABm0="},"public":{"type":"Buffer","data":"cynR4vKO1kPM+oCxODUCFt+7Qg3+F44RWtLJm84IPlU="}},"signature":{"type":"Buffer","data":"86n83UbfnbvPz37mwP+IfWgpfFYGLpfuSq+OhJwOjWk6SM8PZh08Kbvo7fc5fWOYlIjXg1j1yTf/Uldhqo99Bg=="},"keyId":1},"registrationId":183,"advSecretKey":"BfuZlZ7Vr+BFkVpJSWkDD32Ht3Da4uwM/Kayp9+yf0s=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"wImkTln0RFaP2-aNicV4XQ","phoneId":"d01d07b6-74ea-4ede-b12d-826ca1866bdf","identityId":{"type":"Buffer","data":"bJuutZVYvWAXB80AMbFCOloyyAA="},"registered":true,"backupToken":{"type":"Buffer","data":"VaromV2VqtOOXmqYR0MMOHl1MbM="},"registration":{},"pairingCode":"ZMYCKX5W","me":{"id":"2349139401428:5@s.whatsapp.net"},"account":{"details":"CLGj170GENushbwGGAEgACgA","accountSignatureKey":"YnoLZGAGFQtfi4Da8PVVRweFPrT/79ehEcatSIGmoHk=","accountSignature":"8WgsAaWbAoKAvOEHRglGqtovUtECx4/vVRbAM2+kkZIfSSacSvtqvHtR3OsfvI1M7T22VubO/YGJAPLbE3uVBQ==","deviceSignature":"X7Ke/sT/usBFjITvbs2zOtOuij2B9G+rYzBXHSe7gFzwFpBwtEECJiGVDF0qTwd20DMtXUtnoZogl3thDPGqBA=="},"signalIdentities":[{"identifier":{"name":"2349139401428:5@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BWJ6C2RgBhULX4uA2vD1VUcHhT60/+/XoRHGrUiBpqB5"}}],"platform":"android","lastAccountSyncTimestamp":1736529511,"myAppStateKeyId":"AAAAAOSK"}
 global.autobio = process.env.AUTO_BIO === 'true';
 
 global.ANTICALL = process.env.ANTICALL === 'true';
